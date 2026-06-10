@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{ed7536a5-0b53-4d94-ad04-9946b1756eb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{e0bbd5df-0c7c-46c5-bfd0-bdf2707e52b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc">
+      <UniqueIdentifier>{af218ec7-530f-4242-846b-647914954fc3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="lib\libgcc_s_dw2-1.dll">
+      <Filter>lib</Filter>
+    </None>
+    <None Include="lib\libstdc++-6.dll">
+      <Filter>lib</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\inc\header.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\rlcpp\AudioDevice.hpp">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\rlcpp\AudioStream.hpp">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\rlcpp\BoundingBox.hpp">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\rlcpp\Camera2D.hpp">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\rlcpp\Camera3D.hpp">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\rlcpp\Color.hpp">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\rlcpp\Font.hpp">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\rlcpp\Functions.hpp">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\rlcpp\Gamepad.hpp">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\rlcpp\Image.hpp">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\rlcpp\Material.hpp">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\rlcpp\Matrix.hpp">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\rlcpp\Mesh.hpp">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\rlcpp\Model.hpp">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\rlcpp\ModelAnimation.hpp">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\rlcpp\Mouse.hpp">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\rlcpp\Music.hpp">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\rlcpp\physac.hpp">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\rlcpp\Physics.hpp">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\rlcpp\Ray.hpp">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\rlcpp\RayCollision.hpp">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\rlcpp\raylib-cpp-utils.hpp">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\rlcpp\raylib-cpp.hpp">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\rlcpp\raylib.hpp">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\rlcpp\RaylibException.hpp">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\rlcpp\raymath.hpp">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\rlcpp\Rectangle.hpp">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\rlcpp\RenderTexture.hpp">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\rlcpp\Shader.hpp">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\rlcpp\Sound.hpp">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\rlcpp\Texture.hpp">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\rlcpp\Vector2.hpp">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\rlcpp\Vector3.hpp">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\rlcpp\Vector4.hpp">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\rlcpp\VrStereoConfig.hpp">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\rlcpp\Wave.hpp">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\rlcpp\Window.hpp">
+      <Filter>inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
