@@ -1,8 +1,25 @@
+# Build results
 x64/
+Debug/
+Release/
+*.exe
+*.dll
+*.lib
+*.obj
+*.pdb
+*.ilk
+*.exp
+
+# Visual Studio
+.vs/
 *.user
 *.suo
 *.sdf
 *.opensdf
-.vs/
-Debug/
-Release/
+*.VC.db
+*.VC.opendb
+ipch/
+
+# Temp
+*.tmp
+*.log

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include "header.h"
 #define RAYGUI_IMPLEMENTATION
 #include "raygui.h"
@@ -195,3 +196,39 @@ int main() {
     }
     return 0;
 }
+=======
+
+#include "raylib.h"
+
+int main() {
+    // Initialization
+    //--------------------------------------------------------------------------------------
+    int screenWidth = 800;
+    int screenHeight = 450;
+    raylib::Color tex tColor = raylib::Color::LightGray();
+    raylib::Window window(screenWidth, screenHeight, "raylib [core] example - basic window");
+
+    SetTargetFPS(60);
+    //--------------------------------------------------------------------------------------
+
+    // Main game loop
+    while (!window.ShouldClose()) {   // Detect window close button or ESC key
+        // Update
+        //----------------------------------------------------------------------------------
+        // Update your variables here
+        //----------------------------------------------------------------------------------
+
+        // Draw
+        //----------------------------------------------------------------------------------
+        BeginDrawing();
+        {
+            window.ClearBackground(RAYWHITE);
+            textColor.DrawText("Congrats! You created your first window!", 190, 200, 20);
+        }
+        EndDrawing();
+        //----------------------------------------------------------------------------------
+    }
+
+    return 0;
+}
+>>>>>>> 5e03f88b881a6afaa8b0399828d589731e3f2fd9
