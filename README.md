@@ -8,7 +8,7 @@ Features
 Two-player mode — Player 1 controls with W/S keys, Player 2 with Arrow Up/Down
 Ball physics — realistic bouncing off walls and paddles with random direction on reset
 Score system — tracks goals for both players
-Goals (gates) — visible red gates on each side of the screen
+Goals — visible red gates on each side of the screen
 Settings menu (ESC):
 Volume slider
 Fullscreen toggle
@@ -23,8 +23,8 @@ Controls
 Action	Player 1	Player 2
 Move Up	W	Arrow Up
 Move Down	S	Arrow Down
-Open Settings	ESC	ESC
-Technologies
+Open Settings	ESC	
+I used ->
 C++
 raylib
 raygui
