@@ -1,0 +1,5 @@
+*.h linguist-language=C++
+inc/raygui.h linguist-detectable=false
+inc/rlcpp/*.h linguist-language=C++
+src/*.cpp linguist-language=C++
+src/*.h linguist-language=C++
