@@ -27,3 +27,10 @@ i used ->
 C++
 raylib
 raygui
+!!!IMPORTANT!!!
+To play on Arch or arch based distro ->
+sudo pacman -S raylib
+git clone https://github.com/L4rpius/RayPong.git
+cd RayPong
+make run
+On windows just open .exe file
