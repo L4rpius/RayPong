@@ -1,6 +1,13 @@
+!!!IMPORTANT!!!
+To play on Arch or arch based distro ->
+sudo pacman -S raylib
+git clone https://github.com/L4rpius/RayPong.git
+cd RayPong
+make run
+On windows just open .exe file
+
 RayPong
 A classic two-player Pong game built with C++ and raylib.
-
 About
 RayPong is a local two-player Pong game where two players compete against each other. The ball bounces off paddles and walls, and each goal increases the score. The game features a settings menu, customizable backgrounds, and difficulty options.
 
@@ -27,10 +34,4 @@ i used ->
 C++
 raylib
 raygui
-!!!IMPORTANT!!!
-To play on Arch or arch based distro ->
-sudo pacman -S raylib
-git clone https://github.com/L4rpius/RayPong.git
-cd RayPong
-make run
-On windows just open .exe file
+
